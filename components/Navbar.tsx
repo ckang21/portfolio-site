@@ -8,6 +8,14 @@ export default function Navbar() {
         <Link href="/" className="hover:underline">Home</Link>
         <Link href="/projects" className="hover:underline">Projects</Link>
         <Link href="/blog" className="hover:underline">Blog</Link>
+        <a
+          href="/Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
+          Résumé
+        </a>
       </div>
     </nav>
   );
