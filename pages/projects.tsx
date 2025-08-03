@@ -3,11 +3,11 @@ import Navbar from '../components/Navbar';
 
 const projects = [
   {
-    title: 'Load Tester',
-    description: 'Automatically tests API load from Swagger definitions.',
-    tech: ['TypeScript', 'Swagger', 'CI/CD'],
-    github: 'https://github.com/your-username/load-tester',
-    demo: '#',
+    title: 'Risk Score API',
+    description: 'Go backend that returns a mock risk score based on name input.',
+    tech: ['Go', 'net/http', 'Logging'],
+    github: 'https://github.com/ckang21/portfolio-site/tree/main/backend',
+    demo: 'http://localhost:8080/api/risk-score?name=Jeffrey'
   },
   {
     title: 'Sudoku Solver',
@@ -15,7 +15,7 @@ const projects = [
     tech: ['Go', 'Algorithms'],
     github: 'https://github.com/your-username/sudoku-solver',
     demo: '#',
-  },
+  }
 ];
 
 export default function Projects() {
