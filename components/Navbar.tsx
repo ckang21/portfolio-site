@@ -9,7 +9,7 @@ export default function Navbar() {
         <Link href="/projects" className="hover:underline">Projects</Link>
         <Link href="/blog" className="hover:underline">Blog</Link>
         <a
-          href="/resume.pdf"
+          href="/Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline"
